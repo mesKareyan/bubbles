@@ -13,6 +13,8 @@
 		118144A722AE536200C5627F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118144A622AE536200C5627F /* Assets.xcassets */; };
 		118144AA22AE536200C5627F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118144A822AE536200C5627F /* LaunchScreen.storyboard */; };
 		118144AD22AE536200C5627F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 118144AC22AE536200C5627F /* main.m */; };
+		118144B522AE577200C5627F /* UIView+draggable.m in Sources */ = {isa = PBXBuildFile; fileRef = 118144B322AE577200C5627F /* UIView+draggable.m */; };
+		118144B822AE630700C5627F /* MESScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 118144B722AE630700C5627F /* MESScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		118144A922AE536200C5627F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		118144AB22AE536200C5627F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		118144AC22AE536200C5627F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		118144B322AE577200C5627F /* UIView+draggable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+draggable.m"; sourceTree = "<group>"; };
+		118144B422AE577200C5627F /* UIView+draggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+draggable.h"; sourceTree = "<group>"; };
+		118144B622AE630700C5627F /* MESScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MESScrollView.h; sourceTree = "<group>"; };
+		118144B722AE630700C5627F /* MESScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MESScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,14 @@
 		1181449C22AE536100C5627F /* BubbleButtons */ = {
 			isa = PBXGroup;
 			children = (
+				118144B422AE577200C5627F /* UIView+draggable.h */,
+				118144B322AE577200C5627F /* UIView+draggable.m */,
 				1181449D22AE536100C5627F /* AppDelegate.h */,
 				1181449E22AE536100C5627F /* AppDelegate.m */,
 				118144A022AE536100C5627F /* ViewController.h */,
 				118144A122AE536100C5627F /* ViewController.m */,
+				118144B622AE630700C5627F /* MESScrollView.h */,
+				118144B722AE630700C5627F /* MESScrollView.m */,
 				118144A322AE536100C5627F /* Main.storyboard */,
 				118144A622AE536200C5627F /* Assets.xcassets */,
 				118144A822AE536200C5627F /* LaunchScreen.storyboard */,
@@ -143,7 +153,9 @@
 			files = (
 				118144A222AE536100C5627F /* ViewController.m in Sources */,
 				118144AD22AE536200C5627F /* main.m in Sources */,
+				118144B522AE577200C5627F /* UIView+draggable.m in Sources */,
 				1181449F22AE536100C5627F /* AppDelegate.m in Sources */,
+				118144B822AE630700C5627F /* MESScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

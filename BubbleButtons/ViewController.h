@@ -4,8 +4,10 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *buttons;
 
 @end
 

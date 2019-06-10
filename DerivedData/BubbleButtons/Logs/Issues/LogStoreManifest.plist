@@ -5,7 +5,34 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>6A6C9435-E788-440A-8502-D18CABADBA1A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>6A6C9435-E788-440A-8502-D18CABADBA1A.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>BubbleButtons-azxughkwztbvsbbwmajpjksrveve</string>
+			<key>timeStartedRecording</key>
+			<real>581883493.29038799</real>
+			<key>timeStoppedRecording</key>
+			<real>581883493.48742199</real>
+			<key>title</key>
+			<string>Build target BubbleButtons</string>
+			<key>uniqueIdentifier</key>
+			<string>6A6C9435-E788-440A-8502-D18CABADBA1A</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
